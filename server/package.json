@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "concurrently": "^8.2.1",
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1",
+    "stream-chat": "^8.11.0"
+  }
+}
